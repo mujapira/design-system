@@ -13,7 +13,6 @@ declare const colors: {
     readonly ignite500: "#00875F";
     readonly ignite700: "#015F43";
     readonly ignite900: "#00291D";
-    readonly test: "#fff";
 };
 
 declare const space: {
