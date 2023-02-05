@@ -17,6 +17,18 @@ var __spreadValues = (a, b) => {
   return a;
 };
 var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
+var __objRest = (source, exclude) => {
+  var target = {};
+  for (var prop in source)
+    if (__hasOwnProp.call(source, prop) && exclude.indexOf(prop) < 0)
+      target[prop] = source[prop];
+  if (source != null && __getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(source)) {
+      if (exclude.indexOf(prop) < 0 && __propIsEnum.call(source, prop))
+        target[prop] = source[prop];
+    }
+  return target;
+};
 
 // ../tokens/src/space.ts
 var space = {
@@ -372,9 +384,9 @@ import * as Avatar from "@radix-ui/react-avatar";
 var AvatarContainer = styled(Avatar.Root, {
   borderRadius: "$full",
   display: "inline-block",
-  overflow: "hidden",
-  width: "$12",
-  height: "$12"
+  width: "$16",
+  height: "$16",
+  overflow: "hidden"
 });
 var AvatarImage = styled(Avatar.Image, {
   width: "100%",
@@ -478,10 +490,111 @@ var Button = styled("button", {
   }
 });
 Button.displayName = "Button";
+
+// src/components/TextInput/index.tsx
+import { forwardRef as forwardRef3 } from "react";
+
+// src/components/TextInput/styles.ts
+var TextInputContainer = styled("div", {
+  backgroundColor: "$gray900",
+  padding: "$3 $4",
+  borderRadius: "$sm",
+  boxSizing: "border-box",
+  border: "2px solid $gray900",
+  display: "flex",
+  alignItems: "baseline",
+  variants: {
+    size: {
+      sm: {
+        padding: "$2 $3"
+      },
+      md: {
+        padding: "$3 $4"
+      }
+    }
+  },
+  "&:focus-within": {
+    border: "2px solid $ignite300"
+  },
+  "&.disabled)": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  },
+  defaultVariants: {
+    size: "md"
+  }
+});
+var Prefix = styled("span", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$gray400",
+  fontWeight: "regular"
+});
+var Input = styled("input", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "regular",
+  background: "transparent",
+  border: 0,
+  width: "100%",
+  "&:focus": {
+    outline: 0
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  "&:placeholder": {
+    color: "$gray400"
+  }
+});
+
+// src/components/TextInput/index.tsx
+import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
+var TextInput = forwardRef3(
+  (_a, ref) => {
+    var _b = _a, { prefix, size } = _b, props = __objRest(_b, ["prefix", "size"]);
+    const isDisabled = props.disabled;
+    return /* @__PURE__ */ jsxs2(TextInputContainer, { className: isDisabled ? "disabled" : "", size, children: [
+      !!prefix && /* @__PURE__ */ jsx2(Prefix, { children: prefix }),
+      /* @__PURE__ */ jsx2(Input, __spreadValues({ ref }, props))
+    ] });
+  }
+);
+TextInput.displayName = "TextInput";
+
+// src/components/TextArea.tsx
+var TextArea = styled("textarea", {
+  backgroundColor: "$gray900",
+  padding: "$3 $4",
+  borderRadius: "$sm",
+  boxSizing: "border-box",
+  border: "2px solid $gray900",
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "$regular",
+  resize: "vertical",
+  minHeight: 80,
+  "&:focus": {
+    outline: 0,
+    borderColor: "$ignite300"
+  },
+  "&:disabled": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  },
+  "&:placeholder": {
+    color: "$gray400"
+  }
+});
+TextArea.displayName = "TextArea";
 export {
   Avatar2 as Avatar,
   Box,
   Button,
   Heading,
-  Text
+  Text,
+  TextArea,
+  TextInput
 };
