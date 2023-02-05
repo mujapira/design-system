@@ -5,19 +5,8 @@ export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: '$full',
   display: 'inline-block',
   overflow: 'hidden',
-  variants: {
-    size: {
-      sm: {
-        width: '$6',
-        height: '$6',
-      },
-      md: {
-        width: '$12',
-        height: '$12',
-      },
-    },
-  },
-  defaultVariants: { size: 'md' },
+  width: '$12',
+  height: '$12',
 })
 
 export const AvatarImage = styled(Avatar.Image, {

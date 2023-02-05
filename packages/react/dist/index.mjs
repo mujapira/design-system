@@ -373,19 +373,8 @@ var AvatarContainer = styled(Avatar.Root, {
   borderRadius: "$full",
   display: "inline-block",
   overflow: "hidden",
-  variants: {
-    size: {
-      sm: {
-        width: "$6",
-        height: "$6"
-      },
-      md: {
-        width: "$12",
-        height: "$12"
-      }
-    }
-  },
-  defaultVariants: { size: "md" }
+  width: "$12",
+  height: "$12"
 });
 var AvatarImage = styled(Avatar.Image, {
   width: "100%",
@@ -416,9 +405,83 @@ function Avatar2(props) {
   ] });
 }
 Avatar2.displayName = "Avatar";
+
+// src/components/Button.tsx
+var Button = styled("button", {
+  all: "unset",
+  borderRadius: "$sm",
+  fontSize: "$sm",
+  fontWeight: "$medium",
+  fontFamily: "$default",
+  textAlign: "center",
+  minWidth: 120,
+  boxSizing: "border-box",
+  padding: "0 $4",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  gap: "$2",
+  cursor: "pointer",
+  svg: {
+    width: "$4",
+    height: "$4"
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  variants: {
+    variant: {
+      primary: {
+        color: "$white",
+        background: "$ignite500",
+        "&:not(:disabled):hover": {
+          background: "$ignite300"
+        },
+        "&:disabled": {
+          backgroundColor: "$gray200"
+        }
+      },
+      secondary: {
+        color: "$ignite300",
+        border: "2px solid $ignite500",
+        "&:not(:disabled):hover": {
+          background: "$ignite500",
+          color: "$white"
+        },
+        "&:disabled": {
+          color: "$gray200",
+          borderColor: "$gray200"
+        }
+      },
+      tertiary: {
+        color: "$gray100",
+        "&:not(:disabled):hover": {
+          color: "$white"
+        },
+        "&:disabled": {
+          color: "$gray600"
+        }
+      }
+    },
+    size: {
+      sm: {
+        height: 38
+      },
+      md: {
+        height: 46
+      }
+    }
+  },
+  defaultVariants: {
+    variant: "primary",
+    size: "md"
+  }
+});
+Button.displayName = "Button";
 export {
   Avatar2 as Avatar,
   Box,
+  Button,
   Heading,
   Text
 };
