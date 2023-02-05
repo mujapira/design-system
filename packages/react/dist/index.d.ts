@@ -78,7 +78,7 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -182,7 +182,6 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -287,7 +286,7 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -391,7 +390,6 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -496,7 +494,7 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -600,7 +598,6 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -703,7 +700,7 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -807,7 +804,6 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -917,7 +913,7 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -1021,7 +1017,6 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -1126,7 +1121,7 @@ declare const TextInputContainer: _stitches_react_types_styled_component.StyledC
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -1230,7 +1225,6 @@ declare const TextInputContainer: _stitches_react_types_styled_component.StyledC
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -1329,7 +1323,7 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -1433,7 +1427,6 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -1464,7 +1457,7 @@ interface TextInputProps extends Omit<ComponentProps<typeof Input>, 'size'> {
     prefix?: string;
     size?: ComponentProps<typeof TextInputContainer>['size'];
 }
-declare const TextInput: react.ForwardRefExoticComponent<Pick<TextInputProps, "width" | "color" | "height" | "translate" | "css" | "form" | "slot" | "style" | "title" | "pattern" | "hidden" | "size" | "key" | "defaultChecked" | "defaultValue" | "suppressContentEditableWarning" | "suppressHydrationWarning" | "accessKey" | "className" | "contentEditable" | "contextMenu" | "dir" | "draggable" | "id" | "lang" | "nonce" | "placeholder" | "spellCheck" | "tabIndex" | "radioGroup" | "role" | "about" | "datatype" | "inlist" | "prefix" | "property" | "resource" | "typeof" | "vocab" | "autoCapitalize" | "autoCorrect" | "autoSave" | "itemProp" | "itemScope" | "itemType" | "itemID" | "itemRef" | "results" | "security" | "unselectable" | "inputMode" | "is" | "aria-activedescendant" | "aria-atomic" | "aria-autocomplete" | "aria-busy" | "aria-checked" | "aria-colcount" | "aria-colindex" | "aria-colspan" | "aria-controls" | "aria-current" | "aria-describedby" | "aria-details" | "aria-disabled" | "aria-dropeffect" | "aria-errormessage" | "aria-expanded" | "aria-flowto" | "aria-grabbed" | "aria-haspopup" | "aria-hidden" | "aria-invalid" | "aria-keyshortcuts" | "aria-label" | "aria-labelledby" | "aria-level" | "aria-live" | "aria-modal" | "aria-multiline" | "aria-multiselectable" | "aria-orientation" | "aria-owns" | "aria-placeholder" | "aria-posinset" | "aria-pressed" | "aria-readonly" | "aria-relevant" | "aria-required" | "aria-roledescription" | "aria-rowcount" | "aria-rowindex" | "aria-rowspan" | "aria-selected" | "aria-setsize" | "aria-sort" | "aria-valuemax" | "aria-valuemin" | "aria-valuenow" | "aria-valuetext" | "children" | "dangerouslySetInnerHTML" | "onCopy" | "onCopyCapture" | "onCut" | "onCutCapture" | "onPaste" | "onPasteCapture" | "onCompositionEnd" | "onCompositionEndCapture" | "onCompositionStart" | "onCompositionStartCapture" | "onCompositionUpdate" | "onCompositionUpdateCapture" | "onFocus" | "onFocusCapture" | "onBlur" | "onBlurCapture" | "onChange" | "onChangeCapture" | "onBeforeInput" | "onBeforeInputCapture" | "onInput" | "onInputCapture" | "onReset" | "onResetCapture" | "onSubmit" | "onSubmitCapture" | "onInvalid" | "onInvalidCapture" | "onLoad" | "onLoadCapture" | "onError" | "onErrorCapture" | "onKeyDown" | "onKeyDownCapture" | "onKeyPress" | "onKeyPressCapture" | "onKeyUp" | "onKeyUpCapture" | "onAbort" | "onAbortCapture" | "onCanPlay" | "onCanPlayCapture" | "onCanPlayThrough" | "onCanPlayThroughCapture" | "onDurationChange" | "onDurationChangeCapture" | "onEmptied" | "onEmptiedCapture" | "onEncrypted" | "onEncryptedCapture" | "onEnded" | "onEndedCapture" | "onLoadedData" | "onLoadedDataCapture" | "onLoadedMetadata" | "onLoadedMetadataCapture" | "onLoadStart" | "onLoadStartCapture" | "onPause" | "onPauseCapture" | "onPlay" | "onPlayCapture" | "onPlaying" | "onPlayingCapture" | "onProgress" | "onProgressCapture" | "onRateChange" | "onRateChangeCapture" | "onResize" | "onResizeCapture" | "onSeeked" | "onSeekedCapture" | "onSeeking" | "onSeekingCapture" | "onStalled" | "onStalledCapture" | "onSuspend" | "onSuspendCapture" | "onTimeUpdate" | "onTimeUpdateCapture" | "onVolumeChange" | "onVolumeChangeCapture" | "onWaiting" | "onWaitingCapture" | "onAuxClick" | "onAuxClickCapture" | "onClick" | "onClickCapture" | "onContextMenu" | "onContextMenuCapture" | "onDoubleClick" | "onDoubleClickCapture" | "onDrag" | "onDragCapture" | "onDragEnd" | "onDragEndCapture" | "onDragEnter" | "onDragEnterCapture" | "onDragExit" | "onDragExitCapture" | "onDragLeave" | "onDragLeaveCapture" | "onDragOver" | "onDragOverCapture" | "onDragStart" | "onDragStartCapture" | "onDrop" | "onDropCapture" | "onMouseDown" | "onMouseDownCapture" | "onMouseEnter" | "onMouseLeave" | "onMouseMove" | "onMouseMoveCapture" | "onMouseOut" | "onMouseOutCapture" | "onMouseOver" | "onMouseOverCapture" | "onMouseUp" | "onMouseUpCapture" | "onSelect" | "onSelectCapture" | "onTouchCancel" | "onTouchCancelCapture" | "onTouchEnd" | "onTouchEndCapture" | "onTouchMove" | "onTouchMoveCapture" | "onTouchStart" | "onTouchStartCapture" | "onPointerDown" | "onPointerDownCapture" | "onPointerMove" | "onPointerMoveCapture" | "onPointerUp" | "onPointerUpCapture" | "onPointerCancel" | "onPointerCancelCapture" | "onPointerEnter" | "onPointerEnterCapture" | "onPointerLeave" | "onPointerLeaveCapture" | "onPointerOver" | "onPointerOverCapture" | "onPointerOut" | "onPointerOutCapture" | "onGotPointerCapture" | "onGotPointerCaptureCapture" | "onLostPointerCapture" | "onLostPointerCaptureCapture" | "onScroll" | "onScrollCapture" | "onWheel" | "onWheelCapture" | "onAnimationStart" | "onAnimationStartCapture" | "onAnimationEnd" | "onAnimationEndCapture" | "onAnimationIteration" | "onAnimationIterationCapture" | "onTransitionEnd" | "onTransitionEndCapture" | "list" | "step" | "alt" | "crossOrigin" | "src" | "type" | "max" | "min" | "name" | "autoFocus" | "disabled" | "formAction" | "formEncType" | "formMethod" | "formNoValidate" | "formTarget" | "value" | "accept" | "autoComplete" | "capture" | "checked" | "enterKeyHint" | "maxLength" | "minLength" | "multiple" | "readOnly" | "required"> & react.RefAttributes<HTMLInputElement>>;
+declare const TextInput: react.ForwardRefExoticComponent<Pick<TextInputProps, "height" | "width" | "color" | "translate" | "css" | "form" | "slot" | "style" | "title" | "pattern" | "hidden" | "size" | "key" | "defaultChecked" | "defaultValue" | "suppressContentEditableWarning" | "suppressHydrationWarning" | "accessKey" | "className" | "contentEditable" | "contextMenu" | "dir" | "draggable" | "id" | "lang" | "nonce" | "placeholder" | "spellCheck" | "tabIndex" | "radioGroup" | "role" | "about" | "datatype" | "inlist" | "prefix" | "property" | "resource" | "typeof" | "vocab" | "autoCapitalize" | "autoCorrect" | "autoSave" | "itemProp" | "itemScope" | "itemType" | "itemID" | "itemRef" | "results" | "security" | "unselectable" | "inputMode" | "is" | "aria-activedescendant" | "aria-atomic" | "aria-autocomplete" | "aria-busy" | "aria-checked" | "aria-colcount" | "aria-colindex" | "aria-colspan" | "aria-controls" | "aria-current" | "aria-describedby" | "aria-details" | "aria-disabled" | "aria-dropeffect" | "aria-errormessage" | "aria-expanded" | "aria-flowto" | "aria-grabbed" | "aria-haspopup" | "aria-hidden" | "aria-invalid" | "aria-keyshortcuts" | "aria-label" | "aria-labelledby" | "aria-level" | "aria-live" | "aria-modal" | "aria-multiline" | "aria-multiselectable" | "aria-orientation" | "aria-owns" | "aria-placeholder" | "aria-posinset" | "aria-pressed" | "aria-readonly" | "aria-relevant" | "aria-required" | "aria-roledescription" | "aria-rowcount" | "aria-rowindex" | "aria-rowspan" | "aria-selected" | "aria-setsize" | "aria-sort" | "aria-valuemax" | "aria-valuemin" | "aria-valuenow" | "aria-valuetext" | "children" | "dangerouslySetInnerHTML" | "onCopy" | "onCopyCapture" | "onCut" | "onCutCapture" | "onPaste" | "onPasteCapture" | "onCompositionEnd" | "onCompositionEndCapture" | "onCompositionStart" | "onCompositionStartCapture" | "onCompositionUpdate" | "onCompositionUpdateCapture" | "onFocus" | "onFocusCapture" | "onBlur" | "onBlurCapture" | "onChange" | "onChangeCapture" | "onBeforeInput" | "onBeforeInputCapture" | "onInput" | "onInputCapture" | "onReset" | "onResetCapture" | "onSubmit" | "onSubmitCapture" | "onInvalid" | "onInvalidCapture" | "onLoad" | "onLoadCapture" | "onError" | "onErrorCapture" | "onKeyDown" | "onKeyDownCapture" | "onKeyPress" | "onKeyPressCapture" | "onKeyUp" | "onKeyUpCapture" | "onAbort" | "onAbortCapture" | "onCanPlay" | "onCanPlayCapture" | "onCanPlayThrough" | "onCanPlayThroughCapture" | "onDurationChange" | "onDurationChangeCapture" | "onEmptied" | "onEmptiedCapture" | "onEncrypted" | "onEncryptedCapture" | "onEnded" | "onEndedCapture" | "onLoadedData" | "onLoadedDataCapture" | "onLoadedMetadata" | "onLoadedMetadataCapture" | "onLoadStart" | "onLoadStartCapture" | "onPause" | "onPauseCapture" | "onPlay" | "onPlayCapture" | "onPlaying" | "onPlayingCapture" | "onProgress" | "onProgressCapture" | "onRateChange" | "onRateChangeCapture" | "onResize" | "onResizeCapture" | "onSeeked" | "onSeekedCapture" | "onSeeking" | "onSeekingCapture" | "onStalled" | "onStalledCapture" | "onSuspend" | "onSuspendCapture" | "onTimeUpdate" | "onTimeUpdateCapture" | "onVolumeChange" | "onVolumeChangeCapture" | "onWaiting" | "onWaitingCapture" | "onAuxClick" | "onAuxClickCapture" | "onClick" | "onClickCapture" | "onContextMenu" | "onContextMenuCapture" | "onDoubleClick" | "onDoubleClickCapture" | "onDrag" | "onDragCapture" | "onDragEnd" | "onDragEndCapture" | "onDragEnter" | "onDragEnterCapture" | "onDragExit" | "onDragExitCapture" | "onDragLeave" | "onDragLeaveCapture" | "onDragOver" | "onDragOverCapture" | "onDragStart" | "onDragStartCapture" | "onDrop" | "onDropCapture" | "onMouseDown" | "onMouseDownCapture" | "onMouseEnter" | "onMouseLeave" | "onMouseMove" | "onMouseMoveCapture" | "onMouseOut" | "onMouseOutCapture" | "onMouseOver" | "onMouseOverCapture" | "onMouseUp" | "onMouseUpCapture" | "onSelect" | "onSelectCapture" | "onTouchCancel" | "onTouchCancelCapture" | "onTouchEnd" | "onTouchEndCapture" | "onTouchMove" | "onTouchMoveCapture" | "onTouchStart" | "onTouchStartCapture" | "onPointerDown" | "onPointerDownCapture" | "onPointerMove" | "onPointerMoveCapture" | "onPointerUp" | "onPointerUpCapture" | "onPointerCancel" | "onPointerCancelCapture" | "onPointerEnter" | "onPointerEnterCapture" | "onPointerLeave" | "onPointerLeaveCapture" | "onPointerOver" | "onPointerOverCapture" | "onPointerOut" | "onPointerOutCapture" | "onGotPointerCapture" | "onGotPointerCaptureCapture" | "onLostPointerCapture" | "onLostPointerCaptureCapture" | "onScroll" | "onScrollCapture" | "onWheel" | "onWheelCapture" | "onAnimationStart" | "onAnimationStartCapture" | "onAnimationEnd" | "onAnimationEndCapture" | "onAnimationIteration" | "onAnimationIterationCapture" | "onTransitionEnd" | "onTransitionEndCapture" | "list" | "step" | "alt" | "crossOrigin" | "src" | "type" | "max" | "min" | "name" | "autoFocus" | "disabled" | "formAction" | "formEncType" | "formMethod" | "formNoValidate" | "formTarget" | "value" | "accept" | "autoComplete" | "capture" | "checked" | "enterKeyHint" | "maxLength" | "minLength" | "multiple" | "readOnly" | "required"> & react.RefAttributes<HTMLInputElement>>;
 
 declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"textarea", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
@@ -1539,7 +1532,7 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -1643,7 +1636,6 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
@@ -1745,7 +1737,7 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         readonly 80: "20rem";
     };
 }, {
-    hieght: "space";
+    height: "space";
     width: "space";
     gap: "space";
     gridGap: "space";
@@ -1849,7 +1841,6 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
     maxInlineSize: "sizes";
     minWidth: "sizes";
     maxWidth: "sizes";
-    height: "sizes";
     minHeight: "sizes";
     maxHeight: "sizes";
     flexBasis: "sizes";
