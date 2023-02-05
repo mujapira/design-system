@@ -165,7 +165,7 @@ var {
   config
 } = (0, import_react.createStitches)({
   themeMap: __spreadProps(__spreadValues({}, import_react.defaultThemeMap), {
-    hieght: "space",
+    height: "space",
     width: "space"
   }),
   theme: {

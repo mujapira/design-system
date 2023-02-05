@@ -128,7 +128,7 @@ var {
   config
 } = createStitches({
   themeMap: __spreadProps(__spreadValues({}, defaultThemeMap), {
-    hieght: "space",
+    height: "space",
     width: "space"
   }),
   theme: {

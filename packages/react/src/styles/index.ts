@@ -19,7 +19,7 @@ export const {
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
-    hieght: 'space',
+    height: 'space',
     width: 'space',
   },
 
