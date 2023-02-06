@@ -1,11 +1,12 @@
-import { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Heading, HeadingProps } from '@mujapira-ui/react'
 
 export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
-    children: 'Custom Title',
+    children: 'Custom title',
+    size: 'md',
   },
   argTypes: {
     size: {
@@ -28,7 +29,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'Por padrão, o heading sempre será um `h2`. A propriedade `as` pode modifica-lo.',
+          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
       },
     },
   },

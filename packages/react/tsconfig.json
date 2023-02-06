@@ -1,5 +1,4 @@
 {
-    "extends": "@mujapira-ui/ts-config/react.json",
-    "include": ["src"]
-  }
-  
+  "extends": "@mujapira-ui/ts-config/react.json",
+  "include": ["src"]
+}

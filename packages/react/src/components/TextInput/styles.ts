@@ -9,28 +9,13 @@ export const TextInputContainer = styled('div', {
   display: 'flex',
   alignItems: 'baseline',
 
-  variants: {
-    size: {
-      sm: {
-        padding: '$2 $3',
-      },
-      md: {
-        padding: '$3 $4',
-      },
-    },
+  '&:has(input:focus)': {
+    borderColor: '$ignite300',
   },
 
-  '&:focus-within': {
-    border: '2px solid $ignite300',
-  },
-
-  '&.disabled)': {
+  '&:has(input:disabled)': {
     opacity: 0.5,
     cursor: 'not-allowed',
-  },
-
-  defaultVariants: {
-    size: 'md',
   },
 })
 

@@ -1,12 +1,13 @@
-import { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from '@mujapira-ui/react'
 
 export default {
   title: 'Typography/Text',
   component: Text,
   args: {
+    size: 'md',
     children:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti cumque, quisquam consequuntur perspiciatis esse fugit autem, voluptates repellat provident quod fugiat non illo nulla impedit id labore expedita natus! Eligendi.',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
   argTypes: {
     size: {

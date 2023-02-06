@@ -1,4 +1,3 @@
-import React from 'react'
 import { colors } from '@mujapira-ui/tokens'
 import { getContrast } from 'polished'
 
@@ -11,7 +10,7 @@ export function ColorsGrid() {
             display: 'flex',
             justifyContent: 'space-between',
             fontFamily: 'monospace',
-            color: getContrast(color, '#fff') < 3.5 ? '#000' : '#fff',
+            color: getContrast(color, '#FFF') < 3.5 ? '#000' : '#FFF',
           }}
         >
           <strong>${key}</strong>

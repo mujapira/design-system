@@ -1,4 +1,4 @@
-export const colors = <const>{
+export const colors = {
   white: '#FFF',
   black: '#000',
 
@@ -16,5 +16,5 @@ export const colors = <const>{
   ignite700: '#015F43',
   ignite900: '#00291D',
 
-  test: '#fff'
+  test: '#fff',
 }

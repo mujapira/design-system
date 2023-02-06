@@ -1,8 +1,10 @@
 import '../styles/tokens-grid.css'
+
 interface TokensGridProps {
   tokens: Record<string, string>
   hasRemValue?: boolean
 }
+
 export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
   return (
     <table className="tokens-grid">
