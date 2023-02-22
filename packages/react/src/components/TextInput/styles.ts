@@ -58,6 +58,6 @@ export const Input = styled('input', {
   },
 
   '&::placeholder': {
-    color: '$gray500',
+    color: '$gray400',
   },
 })
