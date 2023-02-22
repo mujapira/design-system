@@ -1,0 +1,2 @@
+import{A as t}from"./index.ec15cfb4.js";import"./index.154f3616.js";import"./iframe.07e79a75.js";import"./index.3c1b028c.js";import"./jsx-runtime.fd84707c.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/mujapira.png",alt:"Mujapira"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},e=["Primary","WithFallback"];export{c as Primary,m as WithFallback,e as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.e71c12ce.js.map
